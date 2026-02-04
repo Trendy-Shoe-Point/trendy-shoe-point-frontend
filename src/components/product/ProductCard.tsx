@@ -20,12 +20,12 @@ const ProductCard = ({ product }: ProductCardProps) => {
   };
 
   return (
-    <Link to={`/product/${product.id}`} className="product-card block">
+    <Link to={`/product/${product.id}`} className="product-card block group">
       <div className="relative overflow-hidden">
         <img
           src={product.image}
           alt={product.name}
-          className="product-card-image"
+          className="product-card-image group-hover:scale-105"
           loading="lazy"
         />
         
