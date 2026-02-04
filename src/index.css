@@ -142,12 +142,11 @@
   .product-card {
     @apply bg-card rounded-2xl overflow-hidden transition-all duration-500 
            shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] 
-           hover:-translate-y-2 group;
+           hover:-translate-y-2;
   }
 
   .product-card-image {
-    @apply w-full aspect-square object-cover bg-secondary transition-transform 
-           duration-500 group-hover:scale-105;
+    @apply w-full aspect-square object-cover bg-secondary transition-transform duration-500;
   }
 
   /* Section Styles */
